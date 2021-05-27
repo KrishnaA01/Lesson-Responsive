@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16.5px;
+}
+
+@media (min-width: 320px){
+
+
+.head{
+    background-color: rebeccapurple;
+    color: white;
+    font-size:1rem;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 20px 20px 0 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightgray;
+  }
+  
+  li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+
+  .bodytext img{
+      float: left;
+      padding: 5px 20px;
+      margin-left:-10px;
+    }
+    .bodytext{
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .footer{
+        background-color: darkgray;
+        text-align: center;
+        padding-top:10px;
+        padding-bottom:20px;
+        border-radius:0 0 20px 20px ;
+    }
+
+}
+     
+  
+  
+  
